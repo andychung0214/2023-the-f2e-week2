@@ -1,0 +1,5 @@
+<nav>
+  <ul>
+    <li *ngFor="let tab of tabs" [class.active]="tab.isActive"  (click)="setActiveTab(tab)">{{ tab.title }}</li>
+  </ul>
+</nav>
