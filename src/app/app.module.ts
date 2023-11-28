@@ -11,6 +11,9 @@ import { DropdownFilterComponent } from './dropdown-filter/dropdown-filter.compo
 import { OverviewComponent } from './overview/overview.component';
 import { TaiwanMapComponent } from './taiwan-map/taiwan-map.component';
 import { TipsComponent } from './tips/tips.component';
+import { FormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { TipsComponent } from './tips/tips.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

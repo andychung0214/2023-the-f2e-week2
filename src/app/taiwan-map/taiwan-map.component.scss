@@ -1,0 +1,17 @@
+.taiwan-map-container svg {
+  width: 100%;
+  height: auto;
+}
+
+.tooltip {
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+}
+
+svg rect {
+  stroke: #FFF;
+}

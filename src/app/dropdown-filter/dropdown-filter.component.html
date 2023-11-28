@@ -1,2 +1,14 @@
 <p>{{ content }}</p>
 
+
+<select [(ngModel)]="selectedCity" (change)="onCityChange()">
+  <option *ngFor="let city of cities" [value]="city.value">{{ city.text }}</option>
+            </select>
+
+        <select [(ngModel)]="selectedCounty" (change)="onCountyChange()">
+  <option *ngFor="let county of countries" [value]="county.value">{{ county.text }}</option>
+            </select>
+
+        <select [(ngModel)]="selectedTower">
+  <option *ngFor="let tower of toweries" [value]="tower.value">{{ tower.text }}</option>
+            </select>
